@@ -730,7 +730,7 @@ class NDFrame(PandasObject, indexing.IndexingMixin):
             The axis to update. The value 0 identifies the rows%(axis_description_sub)s.
 
         inplace : bool, default False
-            Whether to return a new %(klass)s instance.
+            Whether to modify the %(klass)s instance rather than creating a new one.
 
         Returns
         -------
